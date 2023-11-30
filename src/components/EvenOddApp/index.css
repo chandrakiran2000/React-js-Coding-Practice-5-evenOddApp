@@ -1,0 +1,81 @@
+/* Write your CSS here */
+
+@media (max-width: 768px) {
+  .bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .bg-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  }
+  .heading {
+    color: #0f172a;
+    font-size: 32px;
+  }
+  .para {
+    color: #334155;
+    font-size: 25px;
+  }
+  .btn {
+    background-color: #ffffff;
+    color: #0f172a;
+    border: 0px;
+    border-radius: 8px;
+    font-size: 18px;
+    height: 30px;
+    width: 120px;
+  }
+  .last {
+    color: #1e293b;
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .bg-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 650px;
+    background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  }
+  .heading {
+    color: #0f172a;
+    font-size: 40px;
+  }
+  .para {
+    color: #334155;
+    font-size: 30px;
+  }
+  .btn {
+    background-color: #ffffff;
+    color: #0f172a;
+    border: 0px;
+    border-radius: 8px;
+    font-size: 18px;
+    height: 30px;
+    width: 120px;
+  }
+  .last {
+    color: #1e293b;
+    font-size: 18px;
+  }
+}
